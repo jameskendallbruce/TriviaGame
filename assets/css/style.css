@@ -1,0 +1,184 @@
+body {
+    background: url(../images/texture.jpeg);
+    align-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#sample {
+
+    color: white;
+
+    font-size: 24px;
+
+    /* just a placeholder and way to test these fonts out... */
+    /* font-family: 'Fredericka the Great', cursive; */
+    /* font-family: 'Averia Serif Libre', cursive; */
+    /* font-family: 'IM Fell English SC', serif; */
+    /* font-family: 'Princess Sofia', cursive; */
+    font-family: 'Jim Nightshade', cursive;
+    
+}
+
+#gameBox {
+    /* background-color: crimson; */
+
+    color: ghostwhite;
+
+    margin: auto;
+
+    position: absolute;
+
+    bottom: 30px;
+
+    top: 30px;
+
+    left: 80px;
+
+    right: 80px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    display: none;
+
+    font-size: 30px;
+
+}
+
+#startPage {
+    height: 100%;
+    width: 100%
+}
+
+#startButton {
+
+    background: none;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: auto;
+    padding: 0;
+
+}
+
+#timer {
+
+    font-family: 'Jim Nightshade', cursive;
+
+    font-size: 50px;
+
+}
+
+#greeting {
+
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 80px;
+    background: none;
+    border: none;
+
+    text-align: center;
+
+    margin: auto;
+
+    position: relative;
+
+    top: 250px;
+
+    color: rgb(83, 7, 7);
+
+
+
+}
+
+#questionBox {
+    display: none;
+  
+}
+
+#qSpot {
+
+    font-family: 'IM Fell English SC', serif;
+
+    font-size: 36px;
+
+    color: ghostwhite;
+
+}
+
+#resultBox {
+    display: none;
+
+    font-family: 'IM Fell English SC', serif;
+
+    font-size: 36px;
+}
+
+#finalResults {
+
+    display: none;
+
+    font-family: 'Jim Nightshade', cursive;
+
+    font-size: 75px;
+
+    color: ghostwhite;
+
+}
+
+#resetButton {
+
+    display: none;
+
+    color: ghostwhite;
+
+    font-family: 'IM Fell English SC', serif;
+
+    font-size: 36px;
+
+    background: none;
+
+    border: none;
+
+}
+
+#Title {
+
+    /* font-family: 'Princess Sofia', cursive; */
+
+    font-family: 'Fredericka the Great', cursive;
+
+    font-weight: bolder;
+
+    margin-bottom: 30px;
+
+}
+
+#mapgif {
+    display: none;
+    width: 100vw;
+    vertical-align: center;
+    padding: 0;
+}
+
+.guesses {
+
+    padding: 0;
+
+    margin: 20px;
+
+    background: none;
+
+    border: none;
+
+    font-family: 'IM Fell English SC', serif;
+
+    font-size: 36px;
+
+    color: ghostwhite;
+
+}
