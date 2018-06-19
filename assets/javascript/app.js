@@ -460,7 +460,7 @@ $( document ).ready(function() {
 
         $("#mapgif").hide();
 
-        $("body").css({"background": "url(assets/images/texture.jpg)", "background-repeat": "no-repeat", "background-attachment": "fixed", "background-position": "center"});
+        $("body").css({"background": "url(assets/images/texture.jpeg)", "background-repeat": "no-repeat", "background-attachment": "fixed", "background-position": "center"});
 
     })
 
